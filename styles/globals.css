@@ -1,3 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .btn {
+    @apply rounded-makeway-px-20 text-makeway-xsm;
+  }
+
+  .btn-common {
+    @apply btn w-makeway-px-124 h-makeway-px-40;
+  }
+
+  body {
+    @apply font-makeway-montserrat;
+  }
+
+  button.red {
+    @apply btn-common bg-makeway-red text-white transition-colors duration-300 hover:bg-red-600;
+  }
+
+  button.dark {
+    @apply btn bg-makeway-dark h-makeway-px-50 w-makeway-px-270 text-white;
+  }
+
+  button.white {
+    @apply btn-common bg-white text-black;
+  }
+
+  a.nav-link {
+    @apply text-makeway-sm text-makeway-dark;
+  }
+
+  nav {
+    @apply h-makeway-h-nav bg-white flex justify-between items-center px-5 xxsm:px-8 md:px-28 lg:px-44 xl:px-60 fixed inset-x-0 top-0 z-50;
+  }
+
+  h1 {
+    @apply text-makeway-lg sm:text-makeway-xlg md:text-makeway-xxlg lg:text-makeway-xxxlg text-center text-white font-bold;
+  }
+
+  h2 {
+    @apply text-makeway-md sm:text-makeway-xmd md:text-makeway-xxmd lg:text-makeway-lg text-white font-bold;
+  }
+
+  h3 {
+    @apply text-makeway-xmd text-white font-semibold;
+  }
+
+  h4 {
+    @apply text-makeway-sm-md;
+  }
+
+  h5 {
+    @apply text-makeway-sm;
+  }
+
+  section.main {
+    @apply px-5 xsm:px-16 sm:px-20 md:px-32 lg:px-40;
+  }
+}
+
+@layer components {
+  .card {
+    @apply py-10 px-8 bg-makeway-wine-dark flex flex-col rounded-lg;
+  }
+
+  .hero-shape {
+    @apply bg-[url('/shape.png')] h-1/3 w-full bg-cover bg-center bg-no-repeat absolute bottom-0;
+  }
+}
