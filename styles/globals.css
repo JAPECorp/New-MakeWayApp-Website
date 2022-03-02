@@ -32,7 +32,7 @@
   }
 
   nav {
-    @apply h-makeway-h-nav bg-white flex justify-between items-center px-5 xxsm:px-8 md:px-28 lg:px-44 xl:px-60 fixed inset-x-0 top-0 z-50;
+    @apply h-makeway-h-nav bg-white flex justify-between items-center px-5 xxsm:px-8 md:px-28 lg:px-44 xl:px-96 fixed inset-x-0 top-0 z-50;
   }
 
   h1 {

@@ -24,7 +24,7 @@ function Nav(props) {
       </div>
 
       <div className="hidden md:block">
-        <ul className="inline-flex space md:gap-5 text-base font-medium">
+        <ul className="inline-flex space md:gap-5 text-base font-medium ">
           <NavItem href="/about-us" text="How It Works" />
           <NavItem href="/services" text="FAQ's" />
           <NavItem href="/portfolio" text="About" />
