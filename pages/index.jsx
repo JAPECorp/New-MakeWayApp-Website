@@ -13,6 +13,7 @@ export default function Home() {
 
       <section className="h-screen bg-ijikod-wine">
         <Nav />
+        <Hero />
       </section>
     </div>
   );

@@ -32,7 +32,7 @@
   }
 
   nav {
-    @apply h-makeway-h-nav bg-white flex justify-between items-center px-5 xxsm:px-8 md:px-28 lg:px-44 xl:px-96 fixed inset-x-0 top-0 z-50;
+    @apply h-makeway-h-nav bg-white flex justify-between items-center px-5 xxsm:px-8 md:px-28 lg:px-44 xl:px-96 fixed inset-x-0 top-0 z-50 mx-auto;
   }
 
   h1 {
@@ -65,7 +65,17 @@
     @apply py-10 px-8 bg-makeway-wine-dark flex flex-col rounded-lg;
   }
 
-  .hero-shape {
-    @apply bg-[url('/shape.png')] h-1/3 w-full bg-cover bg-center bg-no-repeat absolute bottom-0;
+  .bg-image {
+    @apply md:bg-[url('/bgImage.png')] w-screen h-96 bg-cover bg-top bg-no-repeat relative;
+  }
+
+  .bg-line {
+    @apply bg-[url('/line.png')] w-80 h-60 bg-contain bg-center bg-no-repeat;
+  }
+
+  .bg-phone {
+    @apply bg-[url('/phone.png')] w-screen h-makeway-px-750 bg-contain  bg-right-top bg-no-repeat;
   }
 }
+
+/* h-1/3 w-full bg-cover bg-center bg-no-repeat absolute bottom-0 */

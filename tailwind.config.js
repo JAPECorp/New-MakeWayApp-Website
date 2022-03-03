@@ -19,7 +19,7 @@ module.exports = {
         "makeway-gray-dark": "#0000000F",
         "makeway-gray": "#7A7A7A",
         "makeway-red": "#F40E41",
-        "makeway-blue-deep": "#1438C9",
+        "makeway-text-blue": "#00133B",
         "makeway-blue-dark": "#011F3D",
         "makeway-blue-light": "#1AA1DC",
       },
@@ -62,15 +62,15 @@ module.exports = {
         "makeway-px-40": "40px",
         "makeway-px-50": "50px",
         "makeway-px-450": "450px",
+        "makeway-px-750": "750px",
       },
 
       inset: {
-        "makeway-hero-offset-t": "15%",
+        "makeway-hero-offset-t": "20%",
       },
 
       backgroundImage: {
-        "makeway-hero-gradient":
-          "linear-gradient(0deg, #8F1742 10.84%, #2A2E43 93.27%)",
+        "makeway-hero-gradient": "#000",
       },
 
       width: {
