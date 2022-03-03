@@ -30,7 +30,7 @@ function Service() {
       <h3 className="text-center text-black">
         Lets Help Reduce Traffic In Our Community
       </h3>
-      <div className="flex flex-col lg:flex-row gap-16 mt-16"></div>
+      <div className="lg:flex-col gap-16 mt-16"></div>
       {cardArray.map((item) => (
         <ServiceCard
           title={item.title}
