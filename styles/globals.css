@@ -56,7 +56,7 @@
   }
 
   section.main {
-    @apply px-5 xsm:px-16 sm:px-20 md:px-32 lg:px-40;
+    @apply px-8 xsm:px-16 sm:px-20 md:px-32 lg:px-40;
   }
 }
 

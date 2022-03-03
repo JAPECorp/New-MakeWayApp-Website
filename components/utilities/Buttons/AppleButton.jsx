@@ -1,6 +1,6 @@
 function AppleButton() {
   return (
-    <div className="flex items-center justify-center ml-10">
+    <div className="flex items-center justify-center">
       <div className="mr-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"

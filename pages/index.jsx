@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/Hero/Hero";
 import Nav from "../components/NavBar/Nav";
+import Service from "../components/Service /Service";
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
       <section className="h-screen bg-ijikod-wine">
         <Nav />
         <Hero />
+      </section>
+      <section className="main">
+        <Service />
       </section>
     </div>
   );

@@ -8,12 +8,15 @@ function Hero() {
       <div className="container flex text-center md:text-left lg:pl-32 mx-auto">
         <h2 className="leading-tight text-black text-left lg:mt-32 text-7xl md:text-4 lg:text-8xl lg:text-left mb-6">
           No More Delay
-          <p className="mt-6 text-xl text-left text-gray-400">
+          <p className="mt-6 text-lg font-normal text-left text-gray-500">
             Get your Car moving quickly whenever, wherever at anytime with just
-            a ping.”MakeWay” -: A Clear Path is Just A Ping Away.
+            a ping.<span className="text-blue-500">”MakeWay”</span>-: A Clear
+            Path is Just A Ping Away.
           </p>
-          <AndroidButton />
-          <AppleButton />
+          <div className=" mt-4 flex space-x-4">
+            <AndroidButton />
+            <AppleButton />
+          </div>
         </h2>
         <div className="md:bg-phone" />
       </div>
