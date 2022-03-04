@@ -24,7 +24,7 @@ function Service() {
   ];
 
   return (
-    <div className="md:mt-20">
+    <div className="md:mt-10">
       <h2 className="text-black text-center">
         Lets Help Reduce Traffic In Our Community
       </h2>

@@ -16,7 +16,7 @@ export default function Home() {
         <Nav />
         <Hero />
       </section>
-      <section className="main">
+      <section className="px-6 lg:px-36 pb-32">
         <Service />
       </section>
     </div>
