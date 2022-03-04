@@ -1,6 +1,12 @@
+import { motion } from "framer-motion";
+import Link from "next/link";
+
 function AndroidButton() {
   return (
-    <div className="flex mt-3 w-48 h-14 bg-blue-600 text-white rounded-md items-center justify-center">
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      className="flex mt-3 w-48 h-14 bg-blue-600 text-white rounded-md items-center justify-center"
+    >
       <div className="mr-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -15,11 +21,18 @@ function AndroidButton() {
           />
         </svg>
       </div>
-      <div>
-        <div className="text-xs font-normal">Get it on</div>
-        <div className="text-xl font-medium">Play Store</div>
-      </div>
-    </div>
+      <Link
+        href={
+          "https://stackoverflow.com/questions/61651497/next-js-error-react-children-only-expected-to-receive-a-single-react-element-c"
+        }
+        passHref
+      >
+        <div>
+          <div className="text-xs font-normal">Get it on</div>
+          <div className="text-xl font-medium">Play Store</div>
+        </div>
+      </Link>
+    </motion.div>
   );
 }
 
