@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section className="h-screen bg-ijikod-wine">
+      <section className="h-screen">
         <Nav />
         <Hero />
       </section>
