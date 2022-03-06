@@ -23,21 +23,14 @@ const SideBar = (props) => {
             exit={{
               y: "-100%",
             }}
-            transition={{ type: "spring", bounce: 0, duration: 1 }}
+            transition={{ type: "smooth", bounce: 0, duration: 0.2 }}
             className="fixed bg-white text-black shadow-lg top-0 right-0 w-full p-5 text-right flex flex-col items-end gap-10 z-30"
           >
             <div className="m-auto">
               <ul className="flex flex-col items-center gap-10">
-                <NavItem href="/about-us" text="About us" />
-                <NavItem href="/services" text="Services" />
-                <NavItem href="/portfolio" text="Portfolio" />
-                <NavItem href="/join-us" text="Join Us" />
-                <button
-                  className="red"
-                  onClick={() => props.setContactSideBar(true)}
-                >
-                  Contact Us
-                </button>
+                <NavItem href="/how-it-works" text="How it Works" />
+                <NavItem href="/faq" text="FAQ’s" />
+                <NavItem href="/about" text="About" />
               </ul>
             </div>
           </motion.div>
