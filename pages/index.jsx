@@ -25,7 +25,7 @@ export default function Home() {
         <section className="px-6 lg:px-36 pb-32">
           <Service />
         </section>
-        <section>
+        <section className="px-8 lg:px-36 pb-8">
           <How />
         </section>
       </div>
