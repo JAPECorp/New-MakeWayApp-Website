@@ -18,7 +18,7 @@ const SideBar = (props) => {
             initial={{ y: "-100%" }}
             animate={{
               y: 0,
-              top: "15%",
+              top: "10%",
             }}
             exit={{
               y: "-100%",
