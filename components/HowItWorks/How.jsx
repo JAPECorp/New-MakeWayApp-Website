@@ -22,7 +22,7 @@ function How() {
   ];
 
   return (
-    <div className="md:mt-20">
+    <div className="mt-20">
       <h2 className="text-black text-center">How It Works</h2>
 
       <div className="w-1/2 flex items-center">

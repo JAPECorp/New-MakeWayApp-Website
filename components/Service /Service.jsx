@@ -4,20 +4,20 @@ import ServiceCard from "../utilities/Cards/ServiceCard";
 function Service() {
   const upperArray = [
     {
-      title: "Consulting",
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      title: "Speed",
+      content: "Ping, Notify and move in a short period.",
       imgSrc: "/operator.svg",
       id: 1,
     },
     {
-      title: "Marketing",
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      title: "Ease Of Use",
+      content: "Simple and Effective Registration for all cars.",
       imgSrc: "/promotion.svg",
       id: 2,
     },
     {
-      title: "Management",
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      title: "Accessibility",
+      content: "Access any registered car no matter where you are.",
       imgSrc: "/technical-support.svg",
       id: 3,
     },

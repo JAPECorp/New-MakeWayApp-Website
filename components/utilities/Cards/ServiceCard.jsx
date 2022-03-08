@@ -14,8 +14,8 @@ function ServiceCard(props) {
             alt="mini-icons"
           />
         </div>
-        <h4 className="my-2">{props.title}</h4>
-        <p className="px-20">{props.content}</p>
+        <h4 className="my-4 font-bold">{props.title}</h4>
+        <p className="px-20 text-xl">{props.content}</p>
       </div>
     </>
   );

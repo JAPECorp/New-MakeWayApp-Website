@@ -22,7 +22,7 @@ export default function Home() {
           <Nav sideBar={sideBar} setSideBar={setSideBar} />
           <Hero />
         </section>
-        <section className="px-6 lg:px-36 pb-32">
+        <section className="bg-makeway-light-blue px-6 pt-10 lg:px-36 pb-32">
           <Service />
         </section>
         <section className="px-8 lg:px-36 pb-8">

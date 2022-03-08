@@ -16,7 +16,7 @@ module.exports = {
     extend: {
       colors: {
         "makeway-dark": "#2A2E43",
-        "makeway-gray-dark": "#0000000F",
+        "makeway-light-blue": "#EDF4F8",
         "makeway-gray": "#7A7A7A",
         "makeway-red": "#F40E41",
         "makeway-text-blue": "#00133B",
