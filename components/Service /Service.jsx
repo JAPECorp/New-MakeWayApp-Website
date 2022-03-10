@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import ServiceCard from "../utilities/Cards/ServiceCard";
 
 function Service() {
@@ -24,22 +25,24 @@ function Service() {
   ];
 
   return (
-    <div className="md:mt-10">
-      <h2 className="text-black text-center">
-        Lets Help Reduce Traffic In Our Community
-      </h2>
+    <Fade cascade>
+      <div className="md:mt-10">
+        <h2 className="text-black text-center">
+          Lets Help Reduce Traffic In Our Community
+        </h2>
 
-      <div className="flex flex-col gap-10 mt-32 items-center lg:flex-row lg:items-end">
-        {upperArray.map((item) => (
-          <ServiceCard
-            title={item.title}
-            content={item.content}
-            src={item.imgSrc}
-            key={item.id}
-          />
-        ))}
+        <div className="flex flex-col gap-10 mt-32 items-center lg:flex-row lg:items-end">
+          {upperArray.map((item) => (
+            <ServiceCard
+              title={item.title}
+              content={item.content}
+              src={item.imgSrc}
+              key={item.id}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </Fade>
   );
 }
 export default Service;
