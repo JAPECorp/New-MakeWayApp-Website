@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function AndroidButton() {
   return (
-    <motion.div
+    <motion.button
       whileHover={{ scale: 1.05 }}
       className="flex mt-3 w-48 h-14 bg-blue-600 text-white rounded-md items-center justify-center"
     >
@@ -32,7 +32,7 @@ function AndroidButton() {
           <div className="text-xl font-medium">Play Store</div>
         </div>
       </Link>
-    </motion.div>
+    </motion.button>
   );
 }
 

@@ -42,7 +42,15 @@ function How() {
         </div>
 
         <div className="w-full">
-          <div className="h-full w-full relative hidden lg:block">ghsdsdjh</div>
+          <div className="h-full w-full relative hidden lg:block">
+            <Image
+              layout="fill"
+              objectFit="contain"
+              priority
+              src={"/Image.png"}
+              alt="Web-Image"
+            />
+          </div>
         </div>
       </div>
     </Fade>
