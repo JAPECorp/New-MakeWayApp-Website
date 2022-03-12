@@ -5,6 +5,7 @@ import Service from "../components/Service /Service";
 import How from "../components/HowItWorks/How";
 import SideBar from "../components/NavBar/sidebar";
 import { useState } from "react";
+import Cta from "../components/Cta/Cta";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -28,6 +29,7 @@ export default function Home() {
         <section className="px-8 lg:px-80 pb-2">
           <How />
         </section>
+        <Cta />
       </div>
       <SideBar sideBar={sideBar} />
     </>
