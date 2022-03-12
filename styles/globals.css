@@ -58,6 +58,10 @@
   section.main {
     @apply px-8 xsm:px-16 sm:px-20 md:px-32 lg:px-40;
   }
+
+  .gradient-container {
+    @apply w-full h-makeway-px-750 sm:h-makeway-px-150 bg-blue-500 flex  flex-col sm:flex-row;
+  }
 }
 
 @layer components {
