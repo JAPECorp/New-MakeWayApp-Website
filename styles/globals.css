@@ -15,16 +15,8 @@
     @apply font-makeway-montserrat;
   }
 
-  button.red {
-    @apply btn-common bg-makeway-red text-white transition-colors duration-300 hover:bg-red-600;
-  }
-
-  button.dark {
-    @apply btn bg-makeway-dark h-makeway-px-50 w-makeway-px-270 text-white;
-  }
-
-  button.white {
-    @apply btn-common bg-white text-black;
+  button.blue {
+    @apply btn-common bg-blue-700 text-white rounded-md;
   }
 
   a.nav-link {
@@ -59,8 +51,8 @@
     @apply px-8 xsm:px-16 sm:px-20 md:px-32 lg:px-40;
   }
 
-  .gradient-container {
-    @apply w-full h-makeway-px-750 sm:h-makeway-px-150 bg-blue-500 flex  flex-col sm:flex-row;
+  .cta-container {
+    @apply w-full h-makeway-px-450 sm:h-full bg-blue-300 flex  flex-col sm:flex-row;
   }
 }
 

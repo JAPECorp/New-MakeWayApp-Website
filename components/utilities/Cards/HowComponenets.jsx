@@ -29,8 +29,8 @@ function HowComponent(props) {
               objectFit="cover"
               src={props.src}
               alt="how-Image"
-              width="750px"
-              height="900px"
+              // width="750px"
+              // height="900px"
               layout="fill" // layout="fill", layout="intrinsic"
             />
           </div>
