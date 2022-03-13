@@ -58,7 +58,7 @@
 
 @layer components {
   .card {
-    @apply py-10 px-8 flex flex-col rounded-lg;
+    @apply py-10 px-8 flex flex-col rounded-[25px];
   }
 
   .bg-image {
