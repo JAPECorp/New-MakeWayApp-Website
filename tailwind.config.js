@@ -76,6 +76,7 @@ module.exports = {
       width: {
         "makeway-px-270": "270px",
         "makeway-px-124": "124px",
+        "makeway-px-150": "150px",
       },
 
       borderRadius: {

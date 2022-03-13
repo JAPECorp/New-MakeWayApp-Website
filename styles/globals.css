@@ -8,7 +8,7 @@
   }
 
   .btn-common {
-    @apply btn w-makeway-px-124 h-makeway-px-40;
+    @apply btn w-makeway-px-150 h-makeway-px-50;
   }
 
   body {
@@ -16,7 +16,7 @@
   }
 
   button.blue {
-    @apply btn-common bg-blue-700 text-white rounded-md;
+    @apply btn-common bg-blue-700 text-white text-base rounded-md;
   }
 
   a.nav-link {
