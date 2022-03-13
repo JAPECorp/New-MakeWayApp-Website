@@ -4,7 +4,7 @@ import { IoClose, IoMenu } from "react-icons/io5";
 
 const NavItem = (props) => (
   <li>
-    <Link href={props.href}>
+    <Link href={`#${props.href}`}>
       <a className="nav-link hover:text-blue-500">{props.text}</a>
     </Link>
   </li>
@@ -25,9 +25,9 @@ function Nav(props) {
 
       <div className="hidden md:block">
         <ul className="inline-flex space md:gap-5 text-base font-medium space-x-6 ">
-          <NavItem href="/about-us" text="How It Works" />
-          <NavItem href="/services" text="FAQ's" />
-          <NavItem href="/portfolio" text="About" />
+          <NavItem href="#how-it-works" text="How It Works" />
+          <NavItem href="#faqs" text="FAQ's" />
+          <NavItem href="/about-us" text="About" />
         </ul>
       </div>
 

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const NavItem = (props) => (
   <li>
-    <Link href={props.href}>
+    <Link href={`#${props.href}`}>
       <a className="nav-link">{props.text}</a>
     </Link>
   </li>
@@ -28,9 +28,9 @@ const SideBar = (props) => {
           >
             <div className="m-auto">
               <ul className="flex flex-col items-center gap-10">
-                <NavItem href="/how-it-works" text="How it Works" />
-                <NavItem href="/faq" text="FAQ’s" />
-                <NavItem href="/about" text="About" />
+                <NavItem href="#how-it-works" text="How it Works" />
+                <NavItem href="#faqs" text="FAQ’s" />
+                <NavItem href="/about-us" text="About" />
               </ul>
             </div>
           </motion.div>
