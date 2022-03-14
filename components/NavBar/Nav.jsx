@@ -27,7 +27,7 @@ function Nav(props) {
         <ul className="inline-flex space md:gap-5 text-base font-medium space-x-6 ">
           <NavItem href="#how-it-works" text="How It Works" />
           <NavItem href="#faqs" text="FAQ's" />
-          <NavItem href="/about-us" text="About" />
+          <NavItem href="/about" text="About" />
         </ul>
       </div>
 
