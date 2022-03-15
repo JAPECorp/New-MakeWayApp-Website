@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 function CtaCard() {
   return (
     <section className="mt-20">
@@ -8,7 +10,9 @@ function CtaCard() {
               Easy Ping Multiple Access
             </h3>
             <h4 className="">Join Us to grow this into something big.</h4>
-            <button className="blue mt-10">Get Started</button>
+            <motion.button whileHover={{ scale: 1.05 }} className="blue mt-10">
+              Get Started
+            </motion.button>
           </div>
 
           <div className="gradient-img object-fill h-98 w-800" />

@@ -27,7 +27,9 @@ function Nav(props) {
         <ul className="inline-flex space md:gap-5 text-base font-medium space-x-6 ">
           <NavItem href="#how-it-works" text="How It Works" />
           <NavItem href="#faqs" text="FAQ's" />
-          <NavItem href="/about" text="About" />
+          <Link href="/about">
+            <a className="nav-link hover:text-blue-500">About</a>
+          </Link>
         </ul>
       </div>
 

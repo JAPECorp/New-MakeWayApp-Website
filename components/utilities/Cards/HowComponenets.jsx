@@ -17,9 +17,9 @@ function HowComponent(props) {
           <div>
             <h4 className="text-blue-500">{props.subtitle}</h4>
             <h3 className="text-black">{props.title}</h3>
-            <h5 className="text-ijikod-gray mt-5">{props.description}</h5>
-            <h5 className="text-ijikod-gray mt-5">{props.description}</h5>
-            <h5 className="text-ijikod-gray mt-5">{props.description}</h5>
+            <h5 className="text-makeway-gray mt-5">{props.description}</h5>
+            <h5 className="text-makeway-gray mt-5">{props.description}</h5>
+            <h5 className="text-makeway-gray mt-5">{props.description}</h5>
           </div>
         </div>
 
