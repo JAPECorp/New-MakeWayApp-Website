@@ -21,7 +21,7 @@ function FaqComponenet(props) {
       </div>
       <div
         className={`transition-max-height duration-500 ease-in-out overflow-hidden ${
-          expanded ? "max-h-20" : "max-h-0"
+          expanded ? "max-h-40" : "max-h-0"
         }`}
       >
         <p>{props.description}</p>
