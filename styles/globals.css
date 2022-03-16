@@ -27,6 +27,10 @@
     @apply h-makeway-h-nav bg-white flex justify-between items-center px-5 xxsm:px-8 md:px-28 lg:px-44 xl:px-96 fixed inset-x-0 top-0 z-50 mx-auto;
   }
 
+  footer {
+    @apply h-makeway-h-footer bg-white flex justify-between items-center px-5 xxxsm:px-8 md:px-8 lg:px-64;
+  }
+
   h1 {
     @apply text-makeway-lg sm:text-makeway-xlg md:text-makeway-xxlg lg:text-makeway-xxxlg text-center text-white font-bold;
   }

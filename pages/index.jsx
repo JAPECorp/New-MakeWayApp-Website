@@ -7,6 +7,7 @@ import SideBar from "../components/NavBar/sidebar";
 import { useState } from "react";
 import Cta from "../components/Cta/Cta";
 import Faqs from "../components/Faq's/faq";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -34,6 +35,7 @@ export default function Home() {
         <Faqs />
       </div>
       <SideBar sideBar={sideBar} />
+      <Footer />
     </>
   );
 }

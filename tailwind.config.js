@@ -53,6 +53,7 @@ module.exports = {
 
       height: {
         "makeway-h-nav": "10%",
+        "makeway-h-footer": "10%",
         "makeway-h-hero": "80%",
         "5/2": "40%",
         "makeway-px-80": "80px",
