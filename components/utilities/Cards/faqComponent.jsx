@@ -7,7 +7,7 @@ function FaqComponenet(props) {
   return (
     <div
       onClick={() => setExpanded(!expanded)}
-      className="flex flex-col p-8 border-b text-gray-light cursor-pointer"
+      className="flex flex-col p-8 border-b text-black cursor-pointer"
     >
       <div className="flex flex-row items-center">
         <p
