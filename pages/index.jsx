@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <div>
         <Head>
-          <title>MakeWay App Website</title>
+          <title>MakeWay App Website | Home</title>
           <meta name="description" content="Developed by JAPECorp" />
           <link rel="icon" href="/favicon.ico" />
         </Head>

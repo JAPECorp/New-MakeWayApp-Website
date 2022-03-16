@@ -14,13 +14,17 @@ function Nav(props) {
   return (
     <nav>
       <div className="h-12 w-32 relative">
-        <Image
-          layout="fill"
-          objectFit="contain"
-          priority
-          src={"/Logo.png"}
-          alt="makeway logo"
-        />
+        <Link href="/">
+          <a>
+            <Image
+              layout="fill"
+              objectFit="contain"
+              priority
+              src={"/Logo.png"}
+              alt="makeway logo"
+            />
+          </a>
+        </Link>
       </div>
 
       <div className="hidden md:block">
