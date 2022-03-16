@@ -35,9 +35,6 @@ export default function Home() {
         <Faqs />
       </div>
       <SideBar sideBar={sideBar} />
-      <section className="lg:px-60">
-        <Footer />
-      </section>
     </>
   );
 }
