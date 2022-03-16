@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="px-10 mt-10">
+    <footer className="px-10 mt-20">
       <div className="sm:flex items-center sm:justify-between">
         <Link href="/" className="flex items-center mb-4 sm:mb-0" passHref>
           <img src="/Logo2.png" className="mr-6 h-12" alt="Logo" />
@@ -32,10 +32,10 @@ function Footer() {
         </ul>
       </div>
 
-      <span className="block text-base text-black text-center dark:text-black">
+      <span className="block text-base text-black text-center dark:text-black mt-4">
         © 2022{" "}
         <a href="https://flowbite.com" className="hover:underline">
-          Flowbite™
+          MakeWay
         </a>
         . All Rights Reserved.
       </span>
