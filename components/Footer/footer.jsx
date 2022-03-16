@@ -8,31 +8,31 @@ function Footer() {
         <Link href="/" className="flex items-center mb-4 sm:mb-0" passHref>
           <img src="/Logo2.png" className="mr-6 h-12" alt="Logo" />
         </Link>
-        <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
+        <ul className="flex flex-wrap items-center mb-6 text-sm text-black sm:mb-0 ">
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6 ">
-              About
-            </a>
+            <Link href="/about">
+              <a className="mr-4 hover:text-blue-500 ">About</a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6">
-              Privacy Policy
-            </a>
+            <Link href="/">
+              <a className="mr-4 hover:text-blue-500">FAQ</a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6 ">
-              Licensing
-            </a>
+            <Link href="/about">
+              <a className="mr-4 hover:text-blue-500">Support</a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="hover:underline">
-              Contact
-            </a>
+            <Link href="/about">
+              <a className="mr-4 hover:text-blue-500">Privacy Policy</a>
+            </Link>
           </li>
         </ul>
       </div>
 
-      <span className="block text-sm text-gray-500 text-center dark:text-gray-400">
+      <span className="block text-base text-black text-center dark:text-black">
         © 2022{" "}
         <a href="https://flowbite.com" className="hover:underline">
           Flowbite™
