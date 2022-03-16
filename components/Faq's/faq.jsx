@@ -39,7 +39,7 @@ function Faqs() {
   return (
     <div id="#faqs" className="mt-32">
       <h2 className="text-black text-center">FAQ’s</h2>
-      <div className="container mx-auto flex items-center">
+      <div className="lg:px-36 container mx-auto flex items-center">
         <div className="flex-auto flex flex-col md:flex-row items-center bg-white rounded-xl m-5">
           <div className="flex-auto mb-2 w-full">
             <div className="flex-auto mb-2 w-full">{faqComponents}</div>
