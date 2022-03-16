@@ -4,20 +4,21 @@ function Faqs() {
   const faqs = [
     {
       key: 0,
-      title: "How many team members can I invite?",
-      description: "You can invite as many team members as you like",
+      title: "MakeWay, What is it?",
+      description:
+        "An easy to use app that clears a path for you to leave that heavily crowded parking lot.",
     },
     {
       key: 1,
-      title: "What is the maximum file upload size?",
+      title: "Is it really easy to use?",
       description:
-        "No more than 2GB. All files in your account must fit your alloted storage space",
+        "Yes! With easy instructions and a consumer friendly interface, the app is designed perfectly with you in mind.",
     },
     {
       key: 2,
-      title: "How do I reset my password?",
+      title: "How do I get it?",
       description:
-        "You can use the reset password function from the settings menu",
+        "Easy! The app is available on both google playstore and app store. Just search for it and download the it.",
     },
     {
       key: 3,
