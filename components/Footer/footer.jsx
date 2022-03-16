@@ -3,16 +3,10 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="px-10">
+    <footer className="px-10 mt-10">
       <div className="sm:flex items-center sm:justify-between">
-        <Link href="/" className="flex md:items-center mb-4 sm:mb-0" passHref>
-          <Image
-            layout="fill"
-            objectFit="contain"
-            priority
-            src={"/Logo.png"}
-            alt="makeway logo"
-          />
+        <Link href="/" className="flex items-center mb-4 sm:mb-0" passHref>
+          <img src="/Logo2.png" className="mr-6 h-12" alt="Logo" />
         </Link>
         <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
           <li>
