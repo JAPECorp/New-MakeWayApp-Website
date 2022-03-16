@@ -11,7 +11,7 @@ function FaqComponenet(props) {
     >
       <div className="flex flex-row items-center">
         <p
-          className={`flex-auto hover:text-blue-500 md:hover:text-blue-500 ${
+          className={`flex-auto hover:text-blue-500 font-medium md:hover:text-blue-500 ${
             expanded ? "text-gray-dark font-black" : "font-normal"
           }`}
         >
