@@ -20,14 +20,9 @@ function Faqs() {
         "You can use the reset password function from the settings menu",
     },
     {
-      key: 2,
+      key: 3,
       title: "Can I cancel my subscription?",
       description: "You can, but there is no money-back guarantee",
-    },
-    {
-      key: 2,
-      title: "Do you provide additional support?",
-      description: "Yes, please get in touch via e-mail!",
     },
   ];
 
@@ -45,9 +40,9 @@ function Faqs() {
     <div id="#faqs" className="mt-32">
       <h2 className="text-black text-center">FAQ’s</h2>
       <div className="container mx-auto flex items-center">
-        <div className="flex-auto flex flex-col md:flex-row items-center bg-white rounded-xl m-5 p-3 md:m-10">
+        <div className="flex-auto flex flex-col md:flex-row items-center bg-white rounded-xl m-5">
           <div className="flex-auto mb-2 w-full">
-            <div className="flex-auto mb-2 w-full p-2">{faqComponents}</div>
+            <div className="flex-auto mb-2 w-full">{faqComponents}</div>
           </div>
         </div>
       </div>
