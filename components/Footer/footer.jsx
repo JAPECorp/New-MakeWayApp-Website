@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="px-10 mt-20">
+    <footer className="px-10 mt-10">
       <div className="sm:flex items-center sm:justify-between">
         <Link href="/" className="flex items-center mb-4 sm:mb-0" passHref>
           <img
