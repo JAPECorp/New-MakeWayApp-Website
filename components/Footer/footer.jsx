@@ -6,9 +6,13 @@ function Footer() {
     <footer className="px-10 mt-20">
       <div className="sm:flex items-center sm:justify-between">
         <Link href="/" className="flex items-center mb-4 sm:mb-0" passHref>
-          <img src="/Logo2.png" className="mr-6 h-12" alt="Logo" />
+          <img
+            src="/Logo2.png"
+            className="mr-6 h-12 content-center"
+            alt="Logo"
+          />
         </Link>
-        <ul className="flex flex-wrap items-center mb-6 text-sm text-black sm:mb-0 ">
+        <ul className="flex mb-10 text-sm text-black sm:mb-0 ">
           <li>
             <Link href="/about">
               <a className="mr-4 hover:text-blue-500 ">About</a>
@@ -34,7 +38,7 @@ function Footer() {
 
       <span className="block text-base text-black text-center dark:text-black mt-4">
         © 2022{" "}
-        <a href="https://flowbite.com" className="hover:underline">
+        <a href="https://makewayapp.com" className="hover:underline">
           MakeWay
         </a>
         . All Rights Reserved.
