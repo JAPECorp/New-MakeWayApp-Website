@@ -53,7 +53,9 @@ function Footer() {
             </h2>
             <ul className="text-gray-800">
               <li className="mb-4">
-                <FooterItem href="#" text="Privacy Policy" />
+                <Link href="/privacy">
+                  <a className="nav-link hover:text-blue-500">Privacy Policy</a>
+                </Link>
               </li>
               <li>
                 <FooterItem href="#" text="Support" />
