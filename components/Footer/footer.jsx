@@ -7,6 +7,14 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 
+const FooterItem = (props) => (
+  <li>
+    <Link href={`#${props.href}`}>
+      <a className="nav-link hover:text-blue-500">{props.text}</a>
+    </Link>
+  </li>
+);
+
 function Footer() {
   return (
     <footer className="mt-20 p-4 bg-white sm:p-6">
@@ -29,14 +37,12 @@ function Footer() {
             </h2>
             <ul className="text-gray-800">
               <li className="mb-4">
-                <a href="" className="hover:text-blue-500">
-                  About Us
-                </a>
+                <Link href="/about">
+                  <a className="nav-link hover:text-blue-500">About Us</a>
+                </Link>
               </li>
               <li>
-                <a href="" className="hover:text-blue-500">
-                  FAQ
-                </a>
+                <FooterItem href="#faqs" text="FAQ's" />
               </li>
             </ul>
           </div>
@@ -47,14 +53,10 @@ function Footer() {
             </h2>
             <ul className="text-gray-800">
               <li className="mb-4">
-                <a href="#" className="hover:text-blue-500">
-                  Privacy Policy
-                </a>
+                <FooterItem href="#" text="Privacy Policy" />
               </li>
               <li>
-                <a href="#" className="hover:text-blue-500">
-                  Support
-                </a>
+                <FooterItem href="#" text="Support" />
               </li>
             </ul>
           </div>
