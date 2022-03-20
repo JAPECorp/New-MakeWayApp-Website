@@ -1,4 +1,5 @@
 import FaqComponenet from "../utilities/Cards/faqComponent";
+import { Fade } from "react-awesome-reveal";
 
 function Faqs() {
   const faqs = [
@@ -38,16 +39,18 @@ function Faqs() {
   });
 
   return (
-    <div id="#faqs" className="mt-32">
-      <h2 className="text-black text-center">FAQ’s</h2>
-      <div className="lg:px-36 container mx-auto flex items-center">
-        <div className="flex-auto flex flex-col md:flex-row items-center bg-white rounded-xl m-5">
-          <div className="flex-auto mb-2 w-full">
-            <div className="flex-auto mb-2 w-full">{faqComponents}</div>
+    <Fade cascade>
+      <div id="#faqs" className="mt-32">
+        <h2 className="text-black text-center">FAQ’s</h2>
+        <div className="lg:px-36 container mx-auto flex items-center">
+          <div className="flex-auto flex flex-col md:flex-row items-center bg-white rounded-xl m-5">
+            <div className="flex-auto mb-2 w-full">
+              <div className="flex-auto mb-2 w-full">{faqComponents}</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </Fade>
   );
 }
 
