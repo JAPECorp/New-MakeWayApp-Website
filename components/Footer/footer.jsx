@@ -74,16 +74,28 @@ function Footer() {
           . All Rights Reserved.
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-          <a href="#" className="text-blue-600 hover:text-gray-900 ">
+          <a
+            href="https://www.instagram.com/makeway_app/"
+            className="text-blue-600 hover:text-gray-900 "
+          >
             <FaInstagram />
           </a>
-          <a href="#" className="text-blue-600 hover:text-gray-900 ">
+          <a
+            href="https://m.facebook.com/makewayapp/?ref=py_c"
+            className="text-blue-600 hover:text-gray-900 "
+          >
             <FaFacebookF />
           </a>
-          <a href="#" className="text-blue-600 hover:text-gray-900 ">
+          <a
+            href="https://twitter.com/makeway_app"
+            className="text-blue-600 hover:text-gray-900 "
+          >
             <FaTwitter />
           </a>
-          <a href="#" className="text-blue-600 hover:text-gray-900 ">
+          <a
+            href="https://www.linkedin.com/company/makewayapp/"
+            className="text-blue-600 hover:text-gray-900 "
+          >
             <FaLinkedinIn />
           </a>
         </div>

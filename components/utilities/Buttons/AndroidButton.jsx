@@ -22,13 +22,11 @@ function AndroidButton() {
         </svg>
       </div>
       <Link
-        href={
-          "https://stackoverflow.com/questions/61651497/next-js-error-react-children-only-expected-to-receive-a-single-react-element-c"
-        }
+        href={"https://play.google.com/store/apps/details?id=com.jebo.makeway"}
         passHref
       >
         <div>
-          <div className="text-xs font-normal">Get it on</div>
+          <div className="text-xs text-left font-normal">Get it on</div>
           <div className="text-xl font-medium">Play Store</div>
         </div>
       </Link>
