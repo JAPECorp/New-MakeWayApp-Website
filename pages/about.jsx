@@ -3,6 +3,7 @@ import Nav from "../components/NavBar/Nav";
 import SideBar from "../components/NavBar/sidebar";
 import { useState } from "react";
 import AboutSection from "../components/About Section/About";
+import How from "../components/HowItWorks/How";
 
 const About = () => {
   const [sideBar, setSideBar] = useState(false);
@@ -17,7 +18,10 @@ const About = () => {
       <section>
         <Nav sideBar={sideBar} setSideBar={setSideBar} />
       </section>
-      <AboutSection />
+      <section className="h-screen px-5 md:px-20 lg:px-72 pb-10">
+        <AboutSection />
+      </section>
+
       <SideBar sideBar={sideBar} />
     </div>
   );

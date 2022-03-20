@@ -72,6 +72,10 @@
   .bg-phone {
     @apply bg-[url('/phone.png')] w-screen h-makeway-px-750 bg-contain  bg-right-top bg-no-repeat;
   }
+
+  .about-image {
+    @apply bg-[url('/aboutImage.png')] h-1/3 w-full bg-cover bg-center bg-no-repeat absolute bottom-0;
+  }
 }
 
 /* h-1/3 w-full bg-cover bg-center bg-no-repeat absolute bottom-0 */
