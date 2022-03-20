@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
     <div>
       <Nav />
       {children}
-      <section className="lg:px-60">
+      <section className="lg:px-72">
         <Footer />
       </section>
     </div>
