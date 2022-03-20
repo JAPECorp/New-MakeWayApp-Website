@@ -3,7 +3,6 @@ import Nav from "../components/NavBar/Nav";
 import SideBar from "../components/NavBar/sidebar";
 import { useState } from "react";
 import AboutSection from "../components/About Section/About";
-import How from "../components/HowItWorks/How";
 import Content from "../components/About Section/content";
 
 const About = () => {
