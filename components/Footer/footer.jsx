@@ -27,7 +27,7 @@ function Footer() {
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
               Product
             </h2>
-            <ul className="text-gray-600">
+            <ul className="text-gray-800">
               <li className="mb-4">
                 <a href="" className="hover:text-blue-500">
                   About Us
@@ -45,7 +45,7 @@ function Footer() {
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
               Information
             </h2>
-            <ul className="text-gray-600">
+            <ul className="text-gray-800">
               <li className="mb-4">
                 <a href="#" className="hover:text-blue-500">
                   Privacy Policy
