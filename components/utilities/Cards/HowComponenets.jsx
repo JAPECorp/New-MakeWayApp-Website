@@ -26,12 +26,12 @@ function HowComponent(props) {
         <div className="w-full ">
           <div className="h-full w-full relative hidden lg:block">
             <Image
-              objectFit="cover"
+              objectFit="contain"
               src={props.src}
               alt="how-Image"
-              // width="750px"
-              // height="900px"
-              layout="fill" // layout="fill", layout="intrinsic"
+              width="750px"
+              height="900px"
+              // layout="fill" // layout="fill", layout="intrinsic"
             />
           </div>
         </div>
