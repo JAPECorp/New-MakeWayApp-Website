@@ -61,6 +61,10 @@
     @apply py-10 px-8 flex flex-col rounded-[25px];
   }
 
+  .ring {
+    @apply flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-yellow-200 dark:bg-blue-200;
+  }
+
   .bg-image {
     @apply md:bg-[url('/bgImage.png')] w-screen h-96 bg-cover bg-top bg-no-repeat relative;
   }

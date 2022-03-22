@@ -13,7 +13,7 @@ function Faqs() {
       key: 1,
       title: "Is it really easy to use?",
       description:
-        "Yes! With easy instructions and a consumer friendly interface, the app is designed perfectly with you in mind.",
+        "Yes! With easy instructions and a consumer friendly interface, the app is designed perfectly with you in mind! The engaging interface with the help feature and settings feature, allow you to change default setting to personalized ones for an even better experience!",
     },
     {
       key: 2,
@@ -23,8 +23,9 @@ function Faqs() {
     },
     {
       key: 3,
-      title: "Can I cancel my subscription?",
-      description: "You can, but there is no money-back guarantee",
+      title: "Who can use it?",
+      description:
+        "Everyone! Well not everyone entirely. You first need a phone of course. And to be a driver.",
     },
   ];
 
