@@ -5,7 +5,7 @@ function AndroidButton() {
   return (
     <motion.button
       whileHover={{ scale: 1.05 }}
-      className="flex mt-3 w-48 h-14 bg-blue-600 text-white rounded-md items-center justify-center"
+      className="flex mt-2 w-1/2 md:w-1/3 h-14 bg-blue-600 text-white rounded-md items-center justify-center"
     >
       <div className="mr-3">
         <svg
@@ -27,7 +27,7 @@ function AndroidButton() {
       >
         <div>
           <div className="text-xs text-left font-normal">Get it on</div>
-          <div className="text-xl font-medium">Play Store</div>
+          <div className="text-xl font-medium">PlayStore</div>
         </div>
       </Link>
     </motion.button>

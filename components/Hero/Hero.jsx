@@ -31,7 +31,7 @@ function Hero() {
             a ping.<span className="text-blue-500">”MakeWay”</span>-: A Clear
             Path is Just A Ping Away.
           </p>
-          <div className=" mt-4 flex space-x-4">
+          <div className=" mt-10 md:mt-4 flex space-x-4">
             <AndroidButton />
             <AppleButton />
           </div>
