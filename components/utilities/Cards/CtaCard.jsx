@@ -15,8 +15,8 @@ function CtaCard() {
             </motion.button>
           </div>
 
-          <div className="gradient-img object-fill h-98 w-800" />
-          <div className="gradient-img-mob" />
+          {/* <div className="gradient-img object-fill h-98 w-800" />
+          <div className="gradient-img-mob" /> */}
         </div>
       </div>
     </section>
