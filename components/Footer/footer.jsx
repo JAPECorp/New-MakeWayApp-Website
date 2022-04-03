@@ -20,15 +20,17 @@ function Footer() {
     <footer className="mt-20 p-4 bg-white sm:p-6">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
-          <a href="" className="flex items-center">
-            <Image
-              src="/Logo2.png"
-              className="mr-3 h-8"
-              alt="Logo"
-              width={90}
-              height={60}
-            />
-          </a>
+          <Link href="/">
+            <a className="flex items-center">
+              <Image
+                src="/Logo2.png"
+                className="mr-3 h-8"
+                alt="Logo"
+                width={90}
+                height={60}
+              />
+            </a>
+          </Link>
         </div>
         <div className="grid grid-cols-2 gap-6 sm:gap-20 sm:grid-cols-2">
           <div>
