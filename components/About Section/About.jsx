@@ -14,8 +14,8 @@ function AboutSection(props) {
           <Image
             layout="fill"
             src={"/aboutImage.png"}
-            objectFit="contain"
             alt="about-image"
+            className="image"
           />
         </div>
       </div>

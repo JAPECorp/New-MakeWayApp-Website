@@ -75,26 +75,34 @@ function Footer() {
         </span>
         <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
+            target={"_blank"}
             href="https://www.instagram.com/makeway_app/"
             className="text-blue-600 hover:text-gray-900 "
+            rel="noreferrer"
           >
             <FaInstagram />
           </a>
           <a
+            target={"_blank"}
             href="https://m.facebook.com/makewayapp/?ref=py_c"
             className="text-blue-600 hover:text-gray-900 "
+            rel="noreferrer"
           >
             <FaFacebookF />
           </a>
           <a
+            target={"_blank"}
             href="https://twitter.com/makeway_app"
             className="text-blue-600 hover:text-gray-900 "
+            rel="noreferrer"
           >
             <FaTwitter />
           </a>
           <a
+            target={"_blank"}
             href="https://www.linkedin.com/company/makewayapp/"
             className="text-blue-600 hover:text-gray-900 "
+            rel="noreferrer"
           >
             <FaLinkedinIn />
           </a>
