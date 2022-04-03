@@ -21,15 +21,16 @@ function AndroidButton() {
           />
         </svg>
       </div>
-      <Link
-        href={"https://play.google.com/store/apps/details?id=com.jebo.makeway"}
-        passHref
+      <a
+        target={"_blank"}
+        href="https://play.google.com/store/apps/details?id=com.jebo.makeway"
+        rel="noreferrer"
       >
         <div>
           <div className="text-xs text-left font-normal">Get it on</div>
           <div className="text-xl font-medium">PlayStore</div>
         </div>
-      </Link>
+      </a>
     </motion.button>
   );
 }
