@@ -4,6 +4,7 @@ import SideBar from "../components/NavBar/sidebar";
 import { useState } from "react";
 import AboutSection from "../components/About Section/About";
 import Content from "../components/About Section/content";
+import SupportSection from "../components/Support/Support";
 
 const Support = () => {
   const [sideBar, setSideBar] = useState(false);
@@ -19,14 +20,12 @@ const Support = () => {
         <Nav sideBar={sideBar} setSideBar={setSideBar} />
       </section>
       <section className="px-5 md:px-20 lg:px-72 pb-10">
-        <AboutSection />
+        <SupportSection />
       </section>
       <section
         className="md:p-96 px-5 md:px-20 lg:px-72 pb-20 "
         style={{ paddingBottom: 30 }}
-      >
-        <Content />
-      </section>
+      ></section>
 
       <SideBar sideBar={sideBar} />
     </div>
