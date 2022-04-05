@@ -60,7 +60,9 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <FooterItem href="#" text="Support" />
+                <Link href="/support">
+                  <a className="nav-link hover:text-blue-500">Support</a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -69,7 +71,7 @@ function Footer() {
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-200 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-black sm:text-center">
-          © 2022{" "}
+          © 2022
           <a href="" className="hover:underline">
             MakeWay
           </a>
