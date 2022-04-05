@@ -13,7 +13,7 @@ function AboutSection(props) {
         <div>
           <Image
             layout="fill"
-            src={"/aboutImage.png"}
+            src={"/about.jpg"}
             alt="about-image"
             className="image"
           />
