@@ -7,7 +7,7 @@ function Service() {
     {
       title: "Speed",
       content: "Ping, Notify and move in a short period.",
-      imgSrc: "/operator.svg",
+      imgSrc: "/Rocket.svg",
       id: 1,
     },
     {
