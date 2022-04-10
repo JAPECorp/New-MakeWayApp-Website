@@ -71,7 +71,7 @@ function Footer() {
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-200 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-black sm:text-center">
-          © 2022
+          &copy; {new Date().getFullYear()},
           <a href="" className="hover:underline">
             MakeWay
           </a>
