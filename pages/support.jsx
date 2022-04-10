@@ -25,7 +25,9 @@ const Support = () => {
       <section
         className="md:p-96 px-5 md:px-20 lg:px-72 pb-20 "
         style={{ paddingBottom: 30 }}
-      ></section>
+      >
+        <Content />
+      </section>
 
       <SideBar sideBar={sideBar} />
     </div>
