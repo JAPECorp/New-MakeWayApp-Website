@@ -2,9 +2,8 @@ import Link from "next/link";
 import Head from "next/head";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-import { motion } from "framer-motion";
 
-const NotFound = (setSideBar) => {
+const NotFound = () => {
   const router = useRouter();
 
   useEffect(() => {
