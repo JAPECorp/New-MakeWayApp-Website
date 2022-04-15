@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 
-const NotFound = () => {
+const NotFound = (setSideBar) => {
   const router = useRouter();
 
   useEffect(() => {
