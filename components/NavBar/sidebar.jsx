@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 
@@ -30,7 +31,7 @@ const SideBar = (props) => {
               <ul className="flex flex-col items-center gap-10">
                 <NavItem href="#how-it-works" text="How it Works" />
                 <NavItem href="#faqs" text="FAQ’s" />
-                <NavItem href="/about-us" text="About" />
+                <a href="/about">About</a>
               </ul>
             </div>
           </motion.div>
