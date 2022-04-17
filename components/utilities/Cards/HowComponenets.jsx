@@ -28,15 +28,13 @@ function HowComponent(props) {
                   </svg>
                 </span>
                 <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">
-                  Solution
+                  Create an Account
                 </h3>
                 <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat
+                  Both parties (people whoses cars have been blocked by each
+                  other) should have the MakeWay app downloaded on their phones
+                  and register by adding some basic information (phone number
+                  and email address).
                 </p>
               </li>
               <li className="mb-10 ml-6">
@@ -51,16 +49,13 @@ function HowComponent(props) {
                   </svg>
                 </span>
                 <h3 className="mb-1 text-lg font-semibold text-gray-900">
-                  Idea
+                  Add Your Car Number
                 </h3>
 
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat
+                  After being registered, add your car number to your account.
+                  i.e please enter your own car number or a car you often use
+                  number.
                 </p>
               </li>
               <li className="mb-10 ml-6">
@@ -75,16 +70,13 @@ function HowComponent(props) {
                   </svg>
                 </span>
                 <h3 className="mb-1 text-lg font-semibold text-gray-900 d">
-                  Made
+                  Ping The Car Blocking You
                 </h3>
 
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat
+                  Send a request to the owner of the car preventing you from
+                  moving by entering the car number and clicking on the ping
+                  button to notify the Car owner that he/she is blocking you.
                 </p>
               </li>
             </ol>
