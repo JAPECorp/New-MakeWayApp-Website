@@ -10,7 +10,7 @@ const Support = () => {
   return (
     <div>
       <Head>
-        <title>MakeWay App Website| About Us</title>
+        <title>MakeWay App Website| Support</title>
         <meta name="description" content="Developed by JAPECorp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
