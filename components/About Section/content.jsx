@@ -1,7 +1,7 @@
 function Content(props) {
   return (
     <>
-      <div className="mt-32">
+      <div className="mt-52 sm:mt-32">
         <h1 className="text-black text-left text-makeway-md">Our Mission</h1>
 
         <p className="text-lg md:text-2xl text-gray-600 mt-5">
