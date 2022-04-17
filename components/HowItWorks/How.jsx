@@ -6,7 +6,7 @@ function How(props) {
     <Fade cascade>
       <div id="#how-it-works" className="mt-20">
         <h2 className="text-black text-center">How It Works</h2>
-        <HowComponent src={"/work-img.webp"} />
+        <HowComponent src={"/woman-car.webp"} />
       </div>
     </Fade>
   );
