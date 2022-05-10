@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/Hero/Hero";
 import Nav from "../components/NavBar/Nav";
-import Service from "../components/Service /Service";
+import Service from "../components/Service/Service";
 import How from "../components/HowItWorks/How";
 import SideBar from "../components/NavBar/sidebar";
 import { useState } from "react";
