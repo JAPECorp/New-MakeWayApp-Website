@@ -7,6 +7,7 @@ import SideBar from "../components/NavBar/sidebar";
 import { useState } from "react";
 import Cta from "../components/Cta/Cta";
 import Faqs from "../components/Faq's/faq";
+import Instructions from "../components/Instructions/Instructions";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -29,6 +30,9 @@ export default function Home() {
         </section>
         <section className="px-8 lg:px-80 pb-2">
           <How />
+        </section>
+        <section className="bg-makeway-light-blue px-6 pt-10 lg:px-36 pb-32">
+          <Instructions />
         </section>
         <Cta />
         <Faqs />
