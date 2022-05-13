@@ -31,9 +31,9 @@ export default function Home() {
         <section className="px-8 lg:px-80 pb-2">
           <How />
         </section>
-        <section className="bg-makeway-light-blue px-6 pt-10 lg:px-36 pb-32 mt-10">
+        {/* <section className="bg-makeway-light-blue px-6 pt-10 lg:px-36 pb-32 mt-10">
           <Instructions />
-        </section>
+        </section> */}
         <Cta />
         <Faqs />
       </div>
