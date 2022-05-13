@@ -4,6 +4,7 @@ import InstructionsCard from "../utilities/Cards/InstructionsCard";
 export default function Instructions() {
   const instructArray = [
     {
+      className: "card-1",
       number: "01",
       title: "Service Management",
       content:
@@ -11,6 +12,7 @@ export default function Instructions() {
       id: 1,
     },
     {
+      className: "card-2",
       number: "02",
       title: "Transportation",
       content:
@@ -18,6 +20,7 @@ export default function Instructions() {
       id: 2,
     },
     {
+      className: "card-3",
       number: "03",
       title: "Health",
       content:
@@ -25,6 +28,7 @@ export default function Instructions() {
       id: 3,
     },
     {
+      className: "card-4",
       number: "04",
       title: "Security",
       content:
@@ -45,6 +49,7 @@ export default function Instructions() {
         <div className="flex flex-col lg:flex-row gap-16 mt-16">
           {instructArray.map((item) => (
             <InstructionsCard
+              className={item.className}
               number={item.number}
               title={item.title}
               content={item.content}
