@@ -6,34 +6,34 @@ export default function Instructions() {
     {
       className: "card-1",
       number: "01",
-      title: "Service Management",
+      title: "Register with your own car",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Together we can build a community where trust and integrity is paramount. It's starts with you. You can help the Make Way family by registering on the app with a car you own or a car you have access to at least 90% of the time",
       id: 1,
     },
     {
       className: "card-2",
       number: "02",
-      title: "Transportation",
+      title: "Be a pinger by extending a notification",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Should there be a situation in which an individual registers on the app without being the original owner to the car, we advise that this individual extends the message of his/her car blocking the individual to the original owner of the car in order to makeway for the blocked person.",
       id: 2,
     },
     {
       className: "card-3",
       number: "03",
-      title: "Health",
+      title: "The option to register multiple numbers",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "We aim to give users the option to register multiple numbers, should it be that the car is used by more than one individual. This gives people the assurance that their ping will be attended to irrespective of who might be using the car at any given moment.",
       id: 3,
     },
     {
       className: "card-4",
       number: "04",
-      title: "Security",
+      title: "Security is paramount",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      id: 3,
+        "Always make sure to attend to a ping(your car) with a trusted person to prevent any attempt of being robbed or attacked. We are aware that some unscrupulous individuals might only ping you todraw your attention to your car only to further attack/assault you. Help us make our community SAFE.",
+      id: 4,
     },
   ];
   return (
