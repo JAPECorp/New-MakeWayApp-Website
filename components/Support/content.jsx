@@ -1,7 +1,7 @@
 function SupportContent(props) {
   return (
     <>
-      <div className="mt-52 sm:mt-32">
+      <div className="mt-20 sm:mt-20">
         <h1 className="text-black text-left text-makeway-md">
           Support Our Goal
         </h1>
