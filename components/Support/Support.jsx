@@ -10,14 +10,7 @@ function SupportSection(props) {
           <span className="text-blue-600">‘</span>We believe that We can Reduce
           Traffic in our Neighbourhood.<span className="text-blue-600">’</span>
         </p>
-        <div>
-          <Image
-            layout="fill"
-            src={"/support.jpg"}
-            alt="about-image"
-            className="image"
-          />
-        </div>
+       
       </div>
     </>
   );
