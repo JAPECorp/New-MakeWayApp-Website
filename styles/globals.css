@@ -98,7 +98,7 @@
   }
 
   .image {
-    @apply w-full object-contain relative md:w-1/2;
+    @apply w-full object-contain relative;
   }
 }
 
