@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 
 function AboutSection(props) {
@@ -10,14 +11,7 @@ function AboutSection(props) {
           <span className="text-blue-600">‘</span>We believe that We can Reduce
           Traffic in our Neighbourhood.<span className="text-blue-600">’</span>
         </p>
-        <div>
-          <Image
-            layout="fill"
-            src={"/about.jpg"}
-            alt="about-image"
-            className="image"
-          />
-        </div>
+        
       </div>
     </>
   );
