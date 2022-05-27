@@ -3,11 +3,16 @@ function SupportContent(props) {
     <>
       <div className="mt-20 sm:mt-20">
         <h1 className="text-black text-left text-makeway-md">
-          Support Our Goal
+        Help & Support
         </h1>
 
-        <p className="md:w-2/4 text-lg md:text-2xl text-gray-600 font-semibold mt-5">
-          Contact Us
+        <p className="text-lg md:text-2xl text-gray-600 mt-5">
+        At makeway, our core concern are our users.
+         We strife to ensure the best services
+         that deliver on safety and efficiency. 
+        We are here to help make your driving experience
+         even more enjoyable. Let us know what your concerns
+          are and our team will get right on helping you out!
         </p>
         <p className="mt-4">
         <a
