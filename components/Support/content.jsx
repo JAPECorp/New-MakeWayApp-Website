@@ -57,7 +57,8 @@ function SupportContent(props) {
       </div>
       <div className="mt-20 sm:mt-20">
         <h1 className="text-black text-left text-makeway-md">
-        Follow and Interact with us on Social media. 
+        Follow and Interact <br />
+        with us on Social media. 
         </h1>
         <div className="flex mt-5 gap-10">
         <a
@@ -78,10 +79,10 @@ function SupportContent(props) {
           </a>
         </div>
 
-        <p className="md:w-2/4 text-lg md:text-2xl text-gray-600 font-semibold mt-5">
+        <p className="md:w-2/4 text-lg md:text-2xl text-black font-bold mt-5">
           Contact Us
         </p>
-        <p className="mt-4">
+        <p className="mt-2">
         <a
             href="mailto:makeway.app34@gmail.com"
             target="_blank"
@@ -91,7 +92,7 @@ function SupportContent(props) {
             makeway.app34@gmail.com
           </a>
         </p>
-        <p className="mt-4">
+        <p className="mt-2">
         <a
             href="tel:+233553807127"
             className="text-2xl font-medium  text-blue-600"
