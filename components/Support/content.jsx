@@ -100,7 +100,7 @@ function SupportContent(props) {
             makeway.app34@gmail.com
           </a>
         </p>
-        <p className="flex-col mt-2">
+        <p className="flex-col gap-10 mt-2">
         <a
             href="tel:+233546382860"
             className="text-2xl font-medium  text-blue-600"
