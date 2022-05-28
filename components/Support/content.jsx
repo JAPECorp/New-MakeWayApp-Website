@@ -101,18 +101,6 @@ function SupportContent(props) {
           </a>
         </p>
         <p className="flex-col gap-10 mt-2">
-        <a
-            href="tel:+233546382860"
-            className="text-2xl font-medium  text-blue-600"
-          >
-            054 638 2860
-          </a>
-          <a
-            href="tel:+233593325012"
-            className="text-2xl font-medium  text-blue-600"
-          >
-            059 332 5012
-          </a>
           <a
             href="mailto:+233593325012"
             className="text-2xl font-medium  text-blue-600"
