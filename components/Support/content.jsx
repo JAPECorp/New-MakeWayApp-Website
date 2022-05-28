@@ -77,6 +77,14 @@ function SupportContent(props) {
           >
             <FaTwitter size={80} />
           </a>
+           <a
+            target={"_blank"}
+            href="https://m.facebook.com/makewayapp/?ref=py_c"
+            className="text-blue-600 hover:text-gray-900 "
+            rel="noreferrer"
+          >
+            <FaFacebookF size={80} />
+          </a>
         </div>
 
         <p className="md:w-2/4 text-lg md:text-2xl text-black font-bold mt-5">
