@@ -102,13 +102,13 @@ function SupportContent(props) {
         </p>
         <p className="mt-2">
         <a
-            href="tel:+233553807127"
+            href="tel:+233546382860"
             className="text-2xl font-medium  text-blue-600"
           >
             054 638 2860
           </a>
           <a
-            href="tel:+233553807127"
+            href="tel:+233593325012"
             className="text-2xl font-medium  text-blue-600"
           >
             059 332 5012
