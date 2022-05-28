@@ -113,6 +113,14 @@ function SupportContent(props) {
           >
             059 332 5012
           </a>
+          <a
+            href="mailto:makeway.app34@gmail.com"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="text-2xl font-medium  text-blue-600"
+          >
+            makeway.app34@gmail.com
+          </a>
         </p>
       </div>
     </>
