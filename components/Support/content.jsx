@@ -105,7 +105,13 @@ function SupportContent(props) {
             href="tel:+233553807127"
             className="text-2xl font-medium  text-blue-600"
           >
-            055 380 7127
+            054 638 2860
+          </a>
+          <a
+            href="tel:+233553807127"
+            className="text-2xl font-medium  text-blue-600"
+          >
+            059 332 5012
           </a>
         </p>
       </div>
