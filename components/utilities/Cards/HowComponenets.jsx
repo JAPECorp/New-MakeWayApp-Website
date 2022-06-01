@@ -38,7 +38,7 @@ function HowComponent(props) {
                   Create an Account
                 </h3>
                 <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                  Both parties (people whoses cars have been blocked by each
+                  Both parties (people whose cars have been blocked by each
                   other) should have the MakeWay app downloaded on their phones
                   and register by adding some basic information (phone number
                   and email address).
