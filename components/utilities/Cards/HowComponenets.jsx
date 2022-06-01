@@ -64,7 +64,7 @@ function HowComponent(props) {
                   </svg>
                 </span>
                 <h3 className="mb-1 text-lg font-semibold text-gray-900">
-                  Add Your Car Number
+                  Add Your Car Number/The Number of A Car You Often Use
                 </h3>
 
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
