@@ -9,8 +9,8 @@ const PrivacyPolicy = () => {
   const [sideBar, setSideBar] = useState(false);
   return (
     <div>
+      <Meta title="MakeWay App Website| Privacy Policy" />
       <Head>
-        <Meta title="MakeWay App Website| Privacy Policy" />
         <meta name="description" content="Developed by JAPECorp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

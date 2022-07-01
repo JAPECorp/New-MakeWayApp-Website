@@ -15,8 +15,8 @@ const NotFound = () => {
 
   return (
     <>
+      <Meta title='404 - Page not found' />
       <Head>
-        <Meta title='404 - Page not found' />
         <meta name="description" content="Developed by JAPECorp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
