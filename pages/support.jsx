@@ -11,8 +11,8 @@ const Support = () => {
   const [sideBar, setSideBar] = useState(false);
   return (
     <div>
+      <Meta title="MakeWay App Website| Support" />
       <Head>
-        <Meta title="MakeWay App Website| Support" />
         <meta name="description" content="Developed by JAPECorp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
