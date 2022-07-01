@@ -3,13 +3,14 @@ import Nav from "../components/NavBar/Nav";
 import SideBar from "../components/NavBar/sidebar";
 import { useState } from "react";
 import Privacy from "../components/Privacy Policy/Privacy";
+import Meta from "../components/utilities/meta/meta";
 
 const PrivacyPolicy = () => {
   const [sideBar, setSideBar] = useState(false);
   return (
     <div>
       <Head>
-        <title>MakeWay App Website| PrivacyPolicy Us</title>
+        <Meta title="MakeWay App Website| Privacy Policy" />
         <meta name="description" content="Developed by JAPECorp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
