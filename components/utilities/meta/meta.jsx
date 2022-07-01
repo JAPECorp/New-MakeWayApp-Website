@@ -9,18 +9,18 @@ const Meta = (props) => {
             <meta property="og:title" content={props.title} />
             <meta property="og:type" content="website" />
             <meta property="og:image" itemProp="image" content="https://i.ibb.co/dkDvVVd/img-2.jpg" />
-            <meta property="og:description" content="Mande helps ambitious professionals like you to track their impact & growth and boost their career & income." />
+            <meta property="og:description" content="A free mobile application software that allows you the freedom to notify others on their phones to MAKEWAY for your car to move." />
             <meta property="og:site_name" content={props.title} />
             <meta property="og:image" content="https://i.ibb.co/dkDvVVd/img-2.jpg" />
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:title" content={props.title} />
             <meta name="twitter:image" content="https://i.ibb.co/dkDvVVd/img-2.jpg" />
-            <meta property="og:url" content="https://mande.mycareerwheel.com" />
-            <meta name="twitter:site" content="@theMandEapp" />
-            <meta name="twitter:creator" content="@theMandEapp" />
-            <meta property="twitter:description" content="Mande helps ambitious professionals like you to track their impact & growth amd boost their career & income." />
-            <meta name="keywords" content="The Mande App, Track your achievements, Career journal" />
-            <meta name="description" content="Mande helps ambitious professionals like you to track their impact & growth and boost their career & income." />
+            <meta property="og:url" content="https://www.makewayapp.com/" />
+            <meta name="twitter:site" content="@MakeWay_app" />
+            <meta name="twitter:creator" content="@MakeWay_app" />
+            <meta property="twitter:description" content="A free mobile application software that allows you the freedom to notify others on their phones to MAKEWAY for your car to move." />
+            <meta name="keywords" content="Makeway App, Ping, Car, Traffic." />
+            <meta name="description" content="A free mobile application software that allows you the freedom to notify others on their phones to MAKEWAY for your car to move." />
             <link rel='shortcut icon' href='/v.png' />
 
         </Head>
