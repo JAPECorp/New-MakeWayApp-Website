@@ -8,6 +8,8 @@ import { useState } from "react";
 import Cta from "../components/Cta/Cta";
 import Faqs from "../components/Faq's/faq";
 import Guide from "../components/Guide/Guide";
+import Meta from "../components/utilities/meta/meta";
+
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -16,7 +18,7 @@ export default function Home() {
     <>
       <div>
         <Head>
-          <title>MakeWay App Website | Home</title>
+          <Meta title="MakeWay App Website | Home" />
           <meta name="description" content="Developed by JAPECorp" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
