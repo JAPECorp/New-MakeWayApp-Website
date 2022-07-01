@@ -2,6 +2,7 @@ import Link from "next/link";
 import Head from "next/head";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import Meta from "../components/utilities/meta/meta";
 
 const NotFound = () => {
   const router = useRouter();
@@ -15,7 +16,7 @@ const NotFound = () => {
   return (
     <>
       <Head>
-        <title>MakeWay App Website| 404</title>
+        <Meta title='404 - Page not found' />
         <meta name="description" content="Developed by JAPECorp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
