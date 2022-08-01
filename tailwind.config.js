@@ -10,6 +10,10 @@ module.exports = {
       xxxsm: "200px",
       xxsm: "340px",
       xsm: "480px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
       ...screens,
     },
 
