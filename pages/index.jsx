@@ -23,11 +23,11 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <section className="h-screen">
+        <section className="h-96">
           <Nav sideBar={sideBar} setSideBar={setSideBar} />
           <Hero />
         </section>
-        <section className="bg-makeway-light-blue px-6 pt-10 lg:px-36 pb-32">
+        <section className="mt-96 bg-makeway-light-blue px-6 pt-10 lg:px-36 pb-32">
           <Service />
         </section>
         <section className="px-8 lg:px-80 pb-2">

@@ -52,7 +52,7 @@ function Hero() {
               },
             },
           }}
-          className="md:bg-phone"
+          className="mt-8 md:bg-phone"
         />
       </div>
     </section>
@@ -60,3 +60,5 @@ function Hero() {
 }
 
 export default Hero;
+
+

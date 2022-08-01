@@ -90,7 +90,7 @@
   }
 
   .bg-phone {
-    @apply bg-[url('/phone.svg')] w-screen h-makeway-px-750 bg-contain  bg-right-top bg-no-repeat;
+    @apply bg-[url('/phone.svg')] w-screen h-makeway-px-750 bg-contain bg-right-top bg-no-repeat;
   }
 
   .about-image {
