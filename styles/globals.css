@@ -62,19 +62,19 @@
   }
 
   .card-1 {
-    @apply bg-yellow-100 py-10 px-8 flex flex-col rounded-[25px];
+    @apply bg-yellow-100  rounded-lg border border-gray-200 shadow-md;
   }
 
   .card-2 {
-    @apply bg-green-300 py-10 px-8 flex flex-col rounded-[25px];
+    @apply bg-green-300 py-10 px-8 flex flex-col rounded-[25px] h-full w-full;
   }
 
   .card-3 {
-    @apply bg-purple-200 py-10 px-8 flex flex-col rounded-[25px];
+    @apply bg-purple-200 py-10 px-8 flex flex-col rounded-[25px] h-full w-full;
   }
 
   .card-4 {
-    @apply bg-red-300 py-10 px-8 flex flex-col rounded-[25px];
+    @apply bg-red-300 py-10 px-8 flex flex-col rounded-[25px] h-full w-full;
   }
 
   .ring {

@@ -5,6 +5,7 @@ export default function Instructions() {
   const guideArray = [
     {
       className: "card-1",
+      color: "text-yellow-500",
       number: "01",
       title: "Register with your own car",
       content:
@@ -13,6 +14,7 @@ export default function Instructions() {
     },
     {
       className: "card-2",
+      color: "text-green-500",
       number: "02",
       title: "Be a pinger by extending a notification",
       content:
@@ -21,6 +23,7 @@ export default function Instructions() {
     },
     {
       className: "card-3",
+      color: "text-purple-500",
       number: "03",
       title: "The option to register multiple numbers",
       content:
@@ -29,6 +32,7 @@ export default function Instructions() {
     },
     {
       className: "card-4",
+      color: "text-red-500",
       number: "04",
       title: "Security is paramount",
       content:
@@ -45,10 +49,11 @@ export default function Instructions() {
         </p>
 
         <div className="flex flex-col lg:flex-row gap-16 mt-16">
+       
           {guideArray.map((item) => (
             <GuideCard
-              className={item.className}
               number={item.number}
+              color={item.color}
               title={item.title}
               content={item.content}
               key={item.id}
