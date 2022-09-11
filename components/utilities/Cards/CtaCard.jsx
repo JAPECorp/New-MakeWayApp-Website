@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 function CtaCard() {
   return (
     <section className="mt-20">
-      <div className="md:px-80 2lg:px-24">
+      <div className="md:px-44 2lg:px-24">
         <div
           className="cta-container card"
           style={{
