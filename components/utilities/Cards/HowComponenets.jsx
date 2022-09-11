@@ -105,7 +105,7 @@ function HowComponent(props) {
         </div>
 
         <div className="w-full ">
-          <div className="h-full w-full relative hidden lg:block">
+          <div className="h-full w-full relative">
             <Image
               objectFit="contain"
               src={props.src}
